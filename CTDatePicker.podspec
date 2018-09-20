@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mariokovacevic/CTDatePicker.git", :tag => '1.0.0' }
   s.ios.vendored_frameworks = 'CTDatePicker/CTDatePicker.framework'
   s.weak_framework = 'UIKit'
+  s.static_framework = true
   s.requires_arc = true
 
 end

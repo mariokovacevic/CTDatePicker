@@ -14,6 +14,7 @@
 		CD9F7D612154162F008DEC08 /* CTDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9F7D652154162F008DEC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9F7D6C21541664008DEC08 /* CTDatePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CTDatePicker.framework; sourceTree = "<group>"; };
+		CD9F7D6E21541D70008DEC08 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 		CD9F7D632154162F008DEC08 /* CTDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				CD9F7D6E21541D70008DEC08 /* File */,
 				CD9F7D6C21541664008DEC08 /* CTDatePicker.framework */,
 				CD9F7D652154162F008DEC08 /* Info.plist */,
 			);
