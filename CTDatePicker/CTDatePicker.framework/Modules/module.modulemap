@@ -1,0 +1,11 @@
+framework module CTDatePicker {
+  umbrella header "CTDatePicker.h"
+
+  export *
+  module * { export * }
+}
+
+module CTDatePicker.Swift {
+    header "CTDatePicker-Swift.h"
+    requires objc
+}
