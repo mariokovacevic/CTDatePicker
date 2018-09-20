@@ -8,11 +8,12 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Mario Kovacevic" => "mariofilk@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/mariokovacevic/CTDatePicker.git", :tag => '1.0.0' }
-  s.preserve_paths = 'Framework/CTDatePicker.framework'
-  s.vendored_frameworks = 'Framework/CTDatePicker.framework'
+  s.source       = { :git => "https://github.com/mariokovacevic/CTDatePicker.git", :tag => "#{s.version}" }
   s.weak_framework = 'UIKit'
   s.static_framework = true
   s.requires_arc = true
+  s.source_files = 'Framework/**/*.{h}'
+  s.ios.public_header_files = 'Framework/**/*.{h}'
+  s.ios.vendored_frameworks = 'Framework/*.{framework}'
 
 end
