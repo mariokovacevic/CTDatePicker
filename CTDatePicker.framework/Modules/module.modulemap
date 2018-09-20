@@ -1,0 +1,4 @@
+framework module CTDatePicker {
+  header "CTDatePicker-Swift.h"
+  requires objc
+}
