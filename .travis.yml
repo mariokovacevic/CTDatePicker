@@ -1,5 +1,6 @@
 language: swift # or objective-c
 osx_image: xcode10
+before_install:
+- gem install cocoapods # Since Travis is not always on latest version
 script:
-  - gem install cocoapods
   - pod lib lint
