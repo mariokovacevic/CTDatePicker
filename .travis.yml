@@ -1,4 +1,5 @@
 language: swift # or objective-c
 osx_image: xcode10
 script:
+  - gem install cocoapods
   - pod lib lint
