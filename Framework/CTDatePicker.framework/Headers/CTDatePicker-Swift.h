@@ -187,7 +187,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC12CTDatePicker12CTDatePicker")
 @interface CTDatePicker : UIAlertController
-- (nonnull instancetype)initWithDatePickerMode:(UIDatePickerMode)datePickerMode currentDate:(NSDate * _Nonnull)currentDate onSet:(void (^ _Nonnull)(NSDate * _Nonnull))onSet onCancel:(void (^ _Nonnull)(void))onCancel;
+- (nonnull instancetype)initWithDatePickerMode:(UIDatePickerMode)datePickerMode currentDate:(NSDate * _Nullable)currentDate maximumDate:(NSDate * _Nullable)maximumDate minimumDate:(NSDate * _Nullable)minimumDate onSet:(void (^ _Nonnull)(NSDate * _Nonnull))onSet onCancel:(void (^ _Nonnull)(void))onCancel;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
