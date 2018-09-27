@@ -14,15 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G9OXTe3klTntsMf3HAFgGnockvY=
+		qwOMo1kggTBDhO3KCKsePZTmPkI=
+		</data>
+		<key>Modules/CTDatePicker.swiftmodule/i386.swiftdoc</key>
+		<data>
+		WcX6CL4KAJ3jLPsqTEtOZlxTztc=
+		</data>
+		<key>Modules/CTDatePicker.swiftmodule/i386.swiftmodule</key>
+		<data>
+		jl41pNlkLGGWaSWlAi7wbd7ApUg=
 		</data>
 		<key>Modules/CTDatePicker.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		g9DxGa99/o9iJ9MDYQE27WVdQos=
+		b42hNNxSugooIkYcOJ+PMJM0hvE=
 		</data>
 		<key>Modules/CTDatePicker.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		mrj9T9xOtjgN6k1et7qE0RNA9jM=
+		4YkegbkCMLMnUz+czOkmF5JWD0Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -33,6 +41,10 @@
 	<dict>
 		<key>Headers/CTDatePicker-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			vNHPWtEi4cTw/JWAgHKBp8uWqoQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			xrxhx8UFfmYdWhGISmE0nc7KTl/qJN2OAQES37xA1P0=
@@ -40,27 +52,65 @@
 		</dict>
 		<key>Headers/CTDatePicker.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1vrxtJCequohNOQfywemIgSjfnk=
+			</data>
 			<key>hash2</key>
 			<data>
 			rGzEXxikwp+V231XlruOE/XawbBrld48AbAyrAFQreo=
 			</data>
 		</dict>
-		<key>Modules/CTDatePicker.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/CTDatePicker.swiftmodule/i386.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			WcX6CL4KAJ3jLPsqTEtOZlxTztc=
+			</data>
 			<key>hash2</key>
 			<data>
-			G44FbXxrb/rhNb1OzvRSou3fViUnmZRVlKqS0VIE+PY=
+			VD5TO0lfcuXM6eKHlrnMpEacmgMA5hfLsOr9hdXTxZ0=
+			</data>
+		</dict>
+		<key>Modules/CTDatePicker.swiftmodule/i386.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jl41pNlkLGGWaSWlAi7wbd7ApUg=
+			</data>
+			<key>hash2</key>
+			<data>
+			ibmzNL7ZJ16oyo8iXKvZTrMKZp3+mEbkRB5xJom1jk0=
+			</data>
+		</dict>
+		<key>Modules/CTDatePicker.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b42hNNxSugooIkYcOJ+PMJM0hvE=
+			</data>
+			<key>hash2</key>
+			<data>
+			AnCXKTveXYfiYTzZkWISbaAr3k+y0FC+h77BB54y5YM=
 			</data>
 		</dict>
 		<key>Modules/CTDatePicker.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4YkegbkCMLMnUz+czOkmF5JWD0Y=
+			</data>
 			<key>hash2</key>
 			<data>
-			bit2y92QtGAC6NwkiAxgoLWqu/hiugo/yJURXXF3fV4=
+			gPj+IJzvsuys20z3TCpxxJgTsuTq8Si3PInVXM6semY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			M6VSBrK0GYPaXM3nPP5hByT0Duw=
+			</data>
 			<key>hash2</key>
 			<data>
 			3SgqhSHTDFjX2khfTjb33UQbWb3CDEY8dFj15maObvs=
