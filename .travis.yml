@@ -1,2 +1,4 @@
+language: swift # or objective-c
+osx_image: xcode10
 script:
   - pod lib lint
