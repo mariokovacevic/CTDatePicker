@@ -3,11 +3,8 @@
     <a href="https://developer.apple.com/swift/">
         <img src="https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat" alt="Swift 4.2">
     </a>
-    <a href="https://travis-ci.org/SvenTiigi/FlyoverKit">
-        <img src="https://travis-ci.org/SvenTiigi/FlyoverKit.svg?branch=master" alt="Build Status">
-    </a>
-    <a href="http://cocoapods.org/pods/FlyoverKit">
-        <img src="https://img.shields.io/cocoapods/v/FlyoverKit.svg?style=flat" alt="Version">
+    <a href="https://travis-ci.org/mariokovacevic/CTDatePicker">
+        <img src="https://travis-ci.org/mariokovacevic/CTDatePicker.svg?branch=master" alt="Build Status">
     </a>
 </p>
 
