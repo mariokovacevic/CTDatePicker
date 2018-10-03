@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "Mario Kovacevic" => "mariofilk@gmail.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/mariokovacevic/CTDatePicker.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/mariokovacevic/CTDatePicker.git", :branch => "master", :tag => "#{s.version}" }
   s.weak_framework = 'UIKit'
   s.static_framework = true
   s.requires_arc = true
