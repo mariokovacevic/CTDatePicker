@@ -1,7 +1,8 @@
-language: swift # or objective-c
+language: swift
 osx_image: xcode10
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - pod repo update
 script:
   - pod lib lint
+  - xcodebuild -scheme CTDatePickerExample -workspace CTDatePickerExample.xcworkspace -sdk iphonesimulator build
