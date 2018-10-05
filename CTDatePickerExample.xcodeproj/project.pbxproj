@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C00DE31EB4C14CA70D7D7BF /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFC60CD8D259B587B85140D /* Pods_Example.framework */; };
+		430137188AE703396254076A /* Pods_CTDatePickerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A8EC2E63853B3903C6F6DF /* Pods_CTDatePickerExample.framework */; };
 		CD9F7D7E215424F3008DEC08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7D7D215424F3008DEC08 /* AppDelegate.swift */; };
 		CD9F7D80215424F3008DEC08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F7D7F215424F3008DEC08 /* ViewController.swift */; };
 		CD9F7D83215424F3008DEC08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9F7D81215424F3008DEC08 /* Main.storyboard */; };
@@ -29,16 +29,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2D786FB6CF300EB6078EFB4B /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		C57D8DAA90AE51E6009F8260 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CD9F7D7A215424F3008DEC08 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A8EC2E63853B3903C6F6DF /* Pods_CTDatePickerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTDatePickerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804293A57E5F6C351BF7CF09 /* Pods-CTDatePickerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTDatePickerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTDatePickerExample/Pods-CTDatePickerExample.release.xcconfig"; sourceTree = "<group>"; };
+		CD9F7D7A215424F3008DEC08 /* CTDatePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTDatePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9F7D7D215424F3008DEC08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD9F7D7F215424F3008DEC08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD9F7D82215424F3008DEC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD9F7D84215424F5008DEC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD9F7D87215424F5008DEC08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD9F7D89215424F5008DEC08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAFC60CD8D259B587B85140D /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2F9C38EB46D755CA55BB04 /* Pods-CTDatePickerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTDatePickerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTDatePickerExample/Pods-CTDatePickerExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,26 +46,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C00DE31EB4C14CA70D7D7BF /* Pods_Example.framework in Frameworks */,
+				430137188AE703396254076A /* Pods_CTDatePickerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3470010D98C2C1DEF182E2B8 /* Frameworks */ = {
+		21DDAD7094D354D5576A850A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FAFC60CD8D259B587B85140D /* Pods_Example.framework */,
+				53A8EC2E63853B3903C6F6DF /* Pods_CTDatePickerExample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6C932627437D6D88C4DDAC55 /* Pods */ = {
+		9E7A37122B808CB7020AEF1D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C57D8DAA90AE51E6009F8260 /* Pods-Example.debug.xcconfig */,
-				2D786FB6CF300EB6078EFB4B /* Pods-Example.release.xcconfig */,
+				DF2F9C38EB46D755CA55BB04 /* Pods-CTDatePickerExample.debug.xcconfig */,
+				804293A57E5F6C351BF7CF09 /* Pods-CTDatePickerExample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -73,22 +73,22 @@
 		CD9F7D71215424F3008DEC08 = {
 			isa = PBXGroup;
 			children = (
-				CD9F7D7C215424F3008DEC08 /* CTDatePicker */,
+				CD9F7D7C215424F3008DEC08 /* CTDatePickerExample */,
 				CD9F7D7B215424F3008DEC08 /* Products */,
-				6C932627437D6D88C4DDAC55 /* Pods */,
-				3470010D98C2C1DEF182E2B8 /* Frameworks */,
+				9E7A37122B808CB7020AEF1D /* Pods */,
+				21DDAD7094D354D5576A850A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CD9F7D7B215424F3008DEC08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD9F7D7A215424F3008DEC08 /* Example.app */,
+				CD9F7D7A215424F3008DEC08 /* CTDatePickerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD9F7D7C215424F3008DEC08 /* CTDatePicker */ = {
+		CD9F7D7C215424F3008DEC08 /* CTDatePickerExample */ = {
 			isa = PBXGroup;
 			children = (
 				CD9F7D7D215424F3008DEC08 /* AppDelegate.swift */,
@@ -98,31 +98,30 @@
 				CD9F7D86215424F5008DEC08 /* LaunchScreen.storyboard */,
 				CD9F7D89215424F5008DEC08 /* Info.plist */,
 			);
-			name = CTDatePicker;
 			path = CTDatePickerExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD9F7D79215424F3008DEC08 /* Example */ = {
+		CD9F7D79215424F3008DEC08 /* CTDatePickerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD9F7D8C215424F5008DEC08 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = CD9F7D8C215424F5008DEC08 /* Build configuration list for PBXNativeTarget "CTDatePickerExample" */;
 			buildPhases = (
-				B507F0889A1B505C25EF2851 /* [CP] Check Pods Manifest.lock */,
+				F75E67EB10107D1EE5513522 /* [CP] Check Pods Manifest.lock */,
 				CD9F7D76215424F3008DEC08 /* Sources */,
 				CD9F7D77215424F3008DEC08 /* Frameworks */,
 				CD9F7D78215424F3008DEC08 /* Resources */,
 				CD5B4D9B215D3DD200F8A524 /* Embed Frameworks */,
-				7F43EFD539451C330CBF3DA8 /* [CP] Embed Pods Frameworks */,
+				87513616630077659883FCE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = CTDatePickerExample;
 			productName = Test;
-			productReference = CD9F7D7A215424F3008DEC08 /* Example.app */;
+			productReference = CD9F7D7A215424F3008DEC08 /* CTDatePickerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD9F7D75215424F3008DEC08 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = CD9F7D75215424F3008DEC08 /* Build configuration list for PBXProject "CTDatePickerExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD9F7D79215424F3008DEC08 /* Example */,
+				CD9F7D79215424F3008DEC08 /* CTDatePickerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -172,13 +171,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F43EFD539451C330CBF3DA8 /* [CP] Embed Pods Frameworks */ = {
+		87513616630077659883FCE1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CTDatePickerExample/Pods-CTDatePickerExample-frameworks.sh",
 				"${PODS_ROOT}/CTDatePicker/Framework/CTDatePicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -187,10 +186,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTDatePickerExample/Pods-CTDatePickerExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B507F0889A1B505C25EF2851 /* [CP] Check Pods Manifest.lock */ = {
+		F75E67EB10107D1EE5513522 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,7 +200,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CTDatePickerExample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -360,18 +359,16 @@
 		};
 		CD9F7D8D215424F5008DEC08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C57D8DAA90AE51E6009F8260 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = DF2F9C38EB46D755CA55BB04 /* Pods-CTDatePickerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DX6K4GTLDS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Test",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/CTDatePickerExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mariokovacevic.CTDatePicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariokovacevic.CTDatePickerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,18 +377,16 @@
 		};
 		CD9F7D8E215424F5008DEC08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D786FB6CF300EB6078EFB4B /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 804293A57E5F6C351BF7CF09 /* Pods-CTDatePickerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DX6K4GTLDS;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Test",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/CTDatePickerExample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mariokovacevic.CTDatePicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariokovacevic.CTDatePickerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -401,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD9F7D75215424F3008DEC08 /* Build configuration list for PBXProject "Example" */ = {
+		CD9F7D75215424F3008DEC08 /* Build configuration list for PBXProject "CTDatePickerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD9F7D8A215424F5008DEC08 /* Debug */,
@@ -410,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD9F7D8C215424F5008DEC08 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		CD9F7D8C215424F5008DEC08 /* Build configuration list for PBXNativeTarget "CTDatePickerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD9F7D8D215424F5008DEC08 /* Debug */,

@@ -5,4 +5,4 @@ before_install:
 - pod repo update
 script:
   - pod lib lint
-  - xcodebuild -scheme Example -workspace Example.xcworkspace -sdk iphonesimulator build
+  - xcodebuild -scheme CTDatePickerExample -workspace CTDatePickerExample.xcworkspace -sdk iphonesimulator build

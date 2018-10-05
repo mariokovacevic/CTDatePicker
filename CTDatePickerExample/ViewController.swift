@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Example
+//  CTDatePickerExample
 //
 //  Created by Mario Kovacevic on 20/09/2018.
 //  Copyright © 2018 Mario Kovacevic. All rights reserved.
