@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CTDatePickerExample
 //
-//  Created by Mario Kovacevic on 20/09/2018.
+//  Created by Mario Kovacevic on 08/10/2018.
 //  Copyright © 2018 Mario Kovacevic. All rights reserved.
 //
 

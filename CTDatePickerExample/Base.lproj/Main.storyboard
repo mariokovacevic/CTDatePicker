@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v6P-fg-893">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,62 +10,62 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="g4T-lK-F1z">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="v6P-fg-893" customClass="ViewController" customModule="CTDatePickerExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qOc-a6-AVd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date and time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vU0-x1-v84">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date and time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uDk-48-jfR">
                                 <rect key="frame" x="16" y="74" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Sbp-VF-BWE"/>
+                                    <outlet property="delegate" destination="v6P-fg-893" id="dK1-m5-fJO"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vuq-Ep-Gx5">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gn6-I1-tUv">
                                 <rect key="frame" x="16" y="112" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="MNH-un-Ptd"/>
+                                    <outlet property="delegate" destination="v6P-fg-893" id="dtR-Zm-GFz"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k64-ii-NFk">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Time" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rkO-JY-oZN">
                                 <rect key="frame" x="16" y="150" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="hDA-gB-L6J"/>
+                                    <outlet property="delegate" destination="v6P-fg-893" id="q56-8q-DZw"/>
                                 </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vU0-x1-v84" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3rB-af-OlP"/>
-                            <constraint firstItem="vU0-x1-v84" firstAttribute="leading" secondItem="vuq-Ep-Gx5" secondAttribute="leading" id="3zf-Gy-dIt"/>
-                            <constraint firstItem="vuq-Ep-Gx5" firstAttribute="trailing" secondItem="k64-ii-NFk" secondAttribute="trailing" id="CF1-mA-toS"/>
-                            <constraint firstItem="vU0-x1-v84" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="KTv-qI-FD5"/>
-                            <constraint firstItem="vU0-x1-v84" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="O8d-2O-NB4"/>
-                            <constraint firstItem="k64-ii-NFk" firstAttribute="top" secondItem="vuq-Ep-Gx5" secondAttribute="bottom" constant="8" symbolic="YES" id="hsV-s2-mYB"/>
-                            <constraint firstItem="vuq-Ep-Gx5" firstAttribute="top" secondItem="vU0-x1-v84" secondAttribute="bottom" constant="8" symbolic="YES" id="poX-4t-Hrf"/>
-                            <constraint firstItem="vuq-Ep-Gx5" firstAttribute="leading" secondItem="k64-ii-NFk" secondAttribute="leading" id="srC-PO-WvB"/>
-                            <constraint firstItem="vU0-x1-v84" firstAttribute="trailing" secondItem="vuq-Ep-Gx5" secondAttribute="trailing" id="zzR-37-lV5"/>
+                            <constraint firstItem="rkO-JY-oZN" firstAttribute="top" secondItem="Gn6-I1-tUv" secondAttribute="bottom" constant="8" symbolic="YES" id="2nz-X6-Rna"/>
+                            <constraint firstItem="Gn6-I1-tUv" firstAttribute="trailing" secondItem="rkO-JY-oZN" secondAttribute="trailing" id="3x4-v3-ZHo"/>
+                            <constraint firstItem="uDk-48-jfR" firstAttribute="trailing" secondItem="Gn6-I1-tUv" secondAttribute="trailing" id="B2e-3e-68M"/>
+                            <constraint firstItem="uDk-48-jfR" firstAttribute="leading" secondItem="qOc-a6-AVd" secondAttribute="leadingMargin" id="SZ8-kL-09d"/>
+                            <constraint firstItem="uDk-48-jfR" firstAttribute="leading" secondItem="Gn6-I1-tUv" secondAttribute="leading" id="SsJ-iw-bxL"/>
+                            <constraint firstItem="Gn6-I1-tUv" firstAttribute="leading" secondItem="rkO-JY-oZN" secondAttribute="leading" id="ZF4-2S-2DG"/>
+                            <constraint firstItem="uDk-48-jfR" firstAttribute="top" secondItem="P1T-6B-qtm" secondAttribute="top" constant="54" id="bhZ-B4-VmY"/>
+                            <constraint firstItem="uDk-48-jfR" firstAttribute="trailing" secondItem="qOc-a6-AVd" secondAttribute="trailingMargin" id="eVx-ik-edF"/>
+                            <constraint firstItem="Gn6-I1-tUv" firstAttribute="top" secondItem="uDk-48-jfR" secondAttribute="bottom" constant="8" symbolic="YES" id="sfC-5S-F2a"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="P1T-6B-qtm"/>
                     </view>
                     <connections>
-                        <outlet property="dateAndTimeTextField" destination="vU0-x1-v84" id="yBn-Tf-7X2"/>
-                        <outlet property="dateTextField" destination="vuq-Ep-Gx5" id="wAE-12-AWn"/>
-                        <outlet property="timeTextField" destination="k64-ii-NFk" id="1W3-NL-W3q"/>
+                        <outlet property="dateAndTimeTextField" destination="uDk-48-jfR" id="oSq-F8-e40"/>
+                        <outlet property="dateTextField" destination="Gn6-I1-tUv" id="BhN-Y8-fjI"/>
+                        <outlet property="timeTextField" destination="rkO-JY-oZN" id="bJM-Bm-u4i"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n1N-MP-UgA" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>

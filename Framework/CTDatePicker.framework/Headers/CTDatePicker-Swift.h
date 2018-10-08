@@ -185,9 +185,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC12CTDatePicker12CTDatePicker")
-@interface CTDatePicker : UIAlertController
-- (nonnull instancetype)initWithDatePickerMode:(UIDatePickerMode)datePickerMode currentDate:(NSDate * _Nullable)currentDate maximumDate:(NSDate * _Nullable)maximumDate minimumDate:(NSDate * _Nullable)minimumDate onSet:(void (^ _Nonnull)(NSDate * _Nonnull))onSet onCancel:(void (^ _Nonnull)(void))onCancel;
+SWIFT_CLASS("_TtC12CTDatePicker10DatePicker")
+@interface DatePicker : UIAlertController
+@property (nonatomic, copy) void (^ _Nullable didSet)(NSDate * _Nonnull);
+@property (nonatomic, copy) void (^ _Nullable didCancel)(void);
+- (nonnull instancetype)initWithDatePickerMode:(UIDatePickerMode)datePickerMode currentDate:(NSDate * _Nullable)currentDate maximumDate:(NSDate * _Nullable)maximumDate minimumDate:(NSDate * _Nullable)minimumDate onSet:(void (^ _Nullable)(NSDate * _Nonnull))onSet onCancel:(void (^ _Nullable)(void))onCancel;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

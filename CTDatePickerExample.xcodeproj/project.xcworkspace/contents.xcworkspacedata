@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/mariokovacevic/Development/CTDatePicker/CTDatePicker.xcodeproj">
+      location = "self:CTDatePickerExample.xcodeproj">
    </FileRef>
 </Workspace>
